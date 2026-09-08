@@ -1,0 +1,135 @@
+[
+  {
+    "path": "http://module_vod/VodDetailsActivity",
+    "className": "com.vod.ui.activity.VodDetailsActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://module_vod/VodCategoryActivity",
+    "className": "com.vod.ui.activity.VodCategoryActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://module_vod/UserCenterActivity",
+    "className": "com.vod.ui.activity.UserCenterActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://module_vod/TopicActivity",
+    "className": "com.vod.ui.activity.TopicActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://module_vod/SmartvListActivity",
+    "className": "com.vod.ui.activity.SmartvListActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://module_base/WebActivity",
+    "className": "com.module.ui.activity.WebActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://module_mine/UserCenterActivity",
+    "className": "com.mine.ui.activity.UserCenterActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://module_mine/PurchaseActivity",
+    "className": "com.mine.ui.activity.PurchaseActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://module_mine/MyRecordActivity",
+    "className": "com.mine.ui.activity.MyRecordActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://module_mine/InviteFriendsActivity",
+    "className": "com.mine.ui.activity.InviteFriendsActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://module_mine/CouponActivity",
+    "className": "com.mine.ui.activity.CouponActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://module_mine/AccountSecurityActivity",
+    "className": "com.mine.ui.activity.AccountSecurityActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://module_match/MatchScheduleActivity",
+    "className": "com.match.ui.activity.MatchScheduleActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://module_match/MatchRankCategoryActivity",
+    "className": "com.match.ui.activity.MatchRankCategoryActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://module_match/MatchDetailActivity",
+    "className": "com.match.ui.activity.MatchDetailActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://module_match/MatchCategoryActivity",
+    "className": "com.match.ui.activity.MatchCategoryActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://module_main/HomeActivity",
+    "className": "com.main.ui.activity.HomeActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://module_live/LiveFreeActivity",
+    "className": "com.live.ui.activity.LiveFreeActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "http://download/DownloadActivity",
+    "className": "com.download.activity.DownloadActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  }
+]

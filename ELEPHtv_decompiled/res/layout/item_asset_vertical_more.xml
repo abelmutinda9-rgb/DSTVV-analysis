@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoFrameLayout android:paddingBottom="44.0px" android:clipChildren="false" android:clipToPadding="false" android:layout_width="266.0px" android:layout_height="434.0px" android:layout_marginRight="60.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.vod.view.RadiusImageView android:id="@id/mVerticalMore" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="390.0px" android:src="@drawable/bg_asset_vertical_more" android:scaleType="centerCrop" />
+    <TextView android:textSize="32.0px" android:textColor="@color/color_font_normal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="245.0px" android:text="@string/more_info" android:includeFontPadding="false" />
+</com.zhy.autolayout.AutoFrameLayout>

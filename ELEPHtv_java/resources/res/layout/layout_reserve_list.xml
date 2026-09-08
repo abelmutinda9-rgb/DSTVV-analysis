@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:focusable="false"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="match_parent"
+    android:layout_height="53dp">
+    <TextView
+        android:textSize="21sp"
+        android:textColor="@color/color_ffffff"
+        android:ellipsize="marquee"
+        android:id="@+id/tv_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="47dp"
+        android:text="Saiba Mais"
+        android:singleLine="true"
+        android:marqueeRepeatLimit="marquee_forever"/>
+    <TextView
+        android:textSize="13sp"
+        android:textColor="@color/color_858d94"
+        android:ellipsize="marquee"
+        android:id="@+id/tv_time_channel"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="26dp"
+        android:text="14:30-15:40 Fight"
+        android:singleLine="true"
+        android:layout_below="@+id/tv_content"/>
+    <ImageView
+        android:id="@+id/iv_status"
+        android:visibility="visible"
+        android:layout_width="21dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="26dp"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

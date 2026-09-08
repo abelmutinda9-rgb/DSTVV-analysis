@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:background="@drawable/sel_purchase_label_item_bg" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="282.0px" android:layout_height="104.0px" android:layout_marginRight="36.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhy.autolayout.AutoFrameLayout android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0px">
+        <TextView android:textSize="32.0px" android:textStyle="bold" android:textColor="@drawable/color_purchase_label_text" android:ellipsize="marquee" android:gravity="center_horizontal" android:id="@id/mTvLabel" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="28.0px" android:layout_marginRight="50.0px" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        <ImageView android:layout_gravity="center|right" android:id="@id/mIconSelected" android:background="@mipmap/icon_purchase_label_selected" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="17.0px" />
+    </com.zhy.autolayout.AutoFrameLayout>
+    <TextView android:textSize="22.0px" android:textColor="@drawable/color_purchase_label_des_text" android:ellipsize="marquee" android:gravity="center" android:id="@id/mTvDescription" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="28.0px" android:layout_marginTop="13.0px" android:layout_marginBottom="5.0px" android:singleLine="true" />
+</com.zhy.autolayout.AutoLinearLayout>

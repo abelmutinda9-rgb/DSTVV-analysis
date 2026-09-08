@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="36.0dip">
+        <TextView android:textSize="21.0sp" android:textColor="@color/color_font_main" android:gravity="center|top" android:id="@id/mTitleText" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:includeFontPadding="false" />
+        <TextView android:textSize="21.0sp" android:textColor="@color/color_font_main" android:gravity="center|top" android:layout_gravity="right" android:id="@id/mTvTotalSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="45.0dip" android:includeFontPadding="false" />
+    </FrameLayout>
+    <com.open.leanback.widget.VerticalGridView android:id="@id/mRvFreeList" android:focusable="true" android:focusableInTouchMode="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:horizontalSpacing="26.0dip" android:verticalSpacing="15.0dip" app:focusOutEnd="false" app:focusOutFront="true" app:focusOutSideEnd="false" app:focusOutSideStart="true" app:numberOfColumns="6" />
+</LinearLayout>

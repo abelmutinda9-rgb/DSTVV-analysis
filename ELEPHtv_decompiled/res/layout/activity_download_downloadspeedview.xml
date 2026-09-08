@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.module.view.floatingview.DownloadSpeedView android:id="@id/downloadSpeedView" android:layout_width="270.0px" android:layout_height="85.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.common.utils.mark.home.FreeRooView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.open.leanback.widget.VerticalGridView
+        android:id="@+id/mRecyclerFreeArea"
+        android:paddingLeft="20dp"
+        android:paddingBottom="40dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="87dp"
+        app:focusOutEnd="false"
+        app:focusOutFront="true"
+        app:focusOutSideEnd="false"
+        app:focusOutSideStart="true"/>
+    <com.module.view.LoadingView
+        android:id="@+id/mLoadingView"
+        android:paddingRight="40dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="128dp"/>
+</com.common.utils.mark.home.FreeRooView>

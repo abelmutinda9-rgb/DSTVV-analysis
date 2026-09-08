@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:id="@id/mNavigationPanel" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhy.autolayout.AutoRelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0px">
+        <TextView android:textSize="42.0px" android:textColor="@color/color_font_main" android:id="@id/mTvMatchNameTitle" android:layout_width="wrap_content" android:layout_height="60.0px" android:layout_marginLeft="90.0px" android:text="La Liga" android:layout_marginEnd="180.0px" />
+        <com.match.view.MatchNavBar android:orientation="horizontal" android:id="@id/mMatchNavBar" android:layout_width="wrap_content" android:layout_height="60.0px" android:layout_marginRight="90.0px" android:layout_alignParentRight="true" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+    <com.widget.custom.CustomViewPager android:id="@id/mVpNav" android:layout_width="fill_parent" android:layout_height="960.0px" android:layout_marginTop="30.0px" />
+</com.zhy.autolayout.AutoLinearLayout>

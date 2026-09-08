@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/sel_channel_bg" android:focusable="true" android:clipChildren="false" android:clipToPadding="false" android:descendantFocusability="afterDescendants" android:layout_width="946.0px" android:layout_height="100.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="30.0px" android:textColor="@color/color_c4c4c7" android:ellipsize="marquee" android:gravity="center|left" android:id="@id/tvChannelName" android:layout_width="300.0px" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="80.0px" />
+    <TextView android:textSize="30.0px" android:textColor="@color/color_c4c4c7" android:ellipsize="marquee" android:gravity="center|left" android:id="@id/tvCountry" android:layout_width="300.0px" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="10.0px" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/animationView" android:visibility="gone" android:layout_width="45.0px" android:layout_height="45.0px" android:layout_marginEnd="40.0px" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/play_animation" />
+</com.zhy.autolayout.AutoLinearLayout>

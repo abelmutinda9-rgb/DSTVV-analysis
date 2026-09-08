@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:id="@id/mPersonalBlockRoot" android:paddingTop="55.0px" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.widget.view.LinearMainLayout android:orientation="horizontal" android:id="@id/mMyLayout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhy.autolayout.AutoLinearLayout android:orientation="horizontal" android:id="@id/flGetMembershopView" android:background="@drawable/sel_personal_item_home" android:focusable="true" android:focusableInTouchMode="true" android:nextFocusDown="@id/flMyFavorites" android:layout_width="880.0px" android:layout_height="260.0px">
+            <ImageView android:id="@id/membershipAuto" android:background="@mipmap/icon_personal_purchase" android:layout_width="874.0px" android:layout_height="254.0px" android:scaleType="fitXY" />
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoFrameLayout android:orientation="horizontal" android:id="@id/flRedemptionCenter" android:background="@drawable/sel_personal_item_home" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="880.0px" android:layout_height="260.0px" android:layout_marginLeft="20.0px">
+            <ImageView android:id="@id/mIvRedemptionCenter" android:background="@mipmap/icon_personal_redemptioncenter" android:layout_width="874.0px" android:layout_height="254.0px" android:scaleType="fitXY" />
+        </com.zhy.autolayout.AutoFrameLayout>
+    </com.widget.view.LinearMainLayout>
+    <HorizontalScrollView android:id="@id/mHSv" android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhy.autolayout.AutoLinearLayout android:id="@id/mAllFuncWrapper" android:paddingTop="20.0px" android:paddingBottom="15.0px" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.zhy.autolayout.AutoFrameLayout android:id="@id/flMyFavorites" android:background="@drawable/sel_personal_item_home" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="280.0px" android:layout_height="260.0px">
+                <View android:background="@color/color_33ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="154.0px" android:layout_height="154.0px" android:layout_marginTop="35.0px" android:src="@mipmap/icon_account_myfavorites" />
+                <TextView android:textSize="28.0px" android:textColor="@color/color_ffffffff" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0px" android:text="@string/personal_my_collection" android:singleLine="true" />
+            </com.zhy.autolayout.AutoFrameLayout>
+            <com.zhy.autolayout.AutoFrameLayout android:id="@id/flAccountSecurity" android:background="@drawable/sel_personal_item_home" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="280.0px" android:layout_height="260.0px" android:layout_marginLeft="20.0px">
+                <View android:background="@color/color_33ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/mIvAccountSecurity" android:layout_width="154.0px" android:layout_height="154.0px" android:layout_marginTop="35.0px" android:src="@mipmap/icon_account_security" />
+                <TextView android:textSize="28.0px" android:textColor="@color/color_ffffffff" android:layout_gravity="bottom|center" android:id="@id/mTvAccountSecurity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0px" android:text="@string/personal_safe" android:singleLine="true" />
+            </com.zhy.autolayout.AutoFrameLayout>
+            <com.zhy.autolayout.AutoFrameLayout android:id="@id/flInviteFriends" android:background="@drawable/sel_personal_item_home" android:focusable="true" android:layout_width="280.0px" android:layout_height="260.0px" android:layout_marginLeft="20.0px">
+                <View android:background="@color/color_33ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="154.0px" android:layout_height="154.0px" android:layout_marginTop="35.0px" android:src="@mipmap/icon_account_invitefriend" />
+                <TextView android:textSize="28.0px" android:textColor="@color/color_ffffffff" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0px" android:text="@string/personal_invite_friends" android:singleLine="true" />
+            </com.zhy.autolayout.AutoFrameLayout>
+            <com.zhy.autolayout.AutoFrameLayout android:id="@id/flGetCouponView" android:background="@drawable/sel_personal_item_home" android:focusable="true" android:layout_width="280.0px" android:layout_height="260.0px" android:layout_marginLeft="20.0px">
+                <View android:background="@color/color_33ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="154.0px" android:layout_height="154.0px" android:layout_marginTop="35.0px" android:src="@mipmap/icon_account_coupon" />
+                <TextView android:textSize="28.0px" android:textColor="@color/color_ffffffff" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0px" android:text="@string/personal_coupons" android:singleLine="true" />
+                <ImageView android:layout_gravity="right" android:id="@id/mCouponNewIv" android:visibility="gone" android:layout_width="59.0px" android:layout_height="43.0px" android:src="@mipmap/icon_personal_coupon_new" />
+            </com.zhy.autolayout.AutoFrameLayout>
+            <com.zhy.autolayout.AutoFrameLayout android:id="@id/flOpenQRCode" android:background="@drawable/sel_personal_item_home" android:focusable="true" android:layout_width="280.0px" android:layout_height="260.0px" android:layout_marginLeft="20.0px">
+                <View android:background="@color/color_33ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="154.0px" android:layout_height="154.0px" android:layout_marginTop="35.0px" android:src="@mipmap/vod_icon_qr_code" />
+                <TextView android:textSize="28.0px" android:textColor="@color/color_ffffffff" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0px" android:text="@string/personal_open_qrcode" android:singleLine="true" />
+            </com.zhy.autolayout.AutoFrameLayout>
+            <com.zhy.autolayout.AutoFrameLayout android:id="@id/flSetting" android:background="@drawable/sel_personal_item_home" android:focusable="true" android:layout_width="280.0px" android:layout_height="260.0px" android:layout_marginLeft="20.0px">
+                <View android:background="@color/color_33ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="154.0px" android:layout_height="154.0px" android:layout_marginTop="35.0px" android:src="@mipmap/icon_account_setting" />
+                <TextView android:textSize="28.0px" android:textColor="@color/color_ffffffff" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0px" android:text="@string/personal_setting" android:singleLine="true" />
+            </com.zhy.autolayout.AutoFrameLayout>
+            <com.zhy.autolayout.AutoFrameLayout android:id="@id/flOrderHistory" android:background="@drawable/sel_personal_item_home" android:focusable="true" android:layout_width="280.0px" android:layout_height="260.0px" android:layout_marginLeft="20.0px">
+                <View android:background="@color/color_33ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="154.0px" android:layout_height="154.0px" android:layout_marginTop="35.0px" android:src="@mipmap/icon_account_orderhistory" />
+                <TextView android:textSize="28.0px" android:textColor="@color/color_ffffffff" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0px" android:text="@string/personal_order_history" android:singleLine="true" />
+            </com.zhy.autolayout.AutoFrameLayout>
+            <com.zhy.autolayout.AutoFrameLayout android:id="@id/flExchangeRecord" android:background="@drawable/sel_personal_item_home" android:focusable="true" android:nextFocusRight="@id/mHistoryRecyclerView" android:layout_width="280.0px" android:layout_height="260.0px" android:layout_marginLeft="20.0px">
+                <View android:background="@color/color_33ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="154.0px" android:layout_height="154.0px" android:layout_marginTop="35.0px" android:src="@mipmap/icon_account_exchangerecord" />
+                <TextView android:textSize="28.0px" android:textColor="@color/color_ffffffff" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0px" android:text="@string/personal_exchange_record" android:singleLine="true" />
+            </com.zhy.autolayout.AutoFrameLayout>
+        </com.zhy.autolayout.AutoLinearLayout>
+    </HorizontalScrollView>
+</com.zhy.autolayout.AutoLinearLayout>

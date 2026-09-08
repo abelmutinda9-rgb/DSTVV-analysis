@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="right" android:orientation="horizontal" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="19.0sp" android:textColor="@color/color_ffffff" android:gravity="center_vertical" android:id="@id/mTvExpireTips" android:paddingLeft="14.0dip" android:paddingRight="10.0dip" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="23.0dip" android:drawableLeft="@mipmap/icon_home_expire_vip" android:drawablePadding="9.0dip" style="@style/marquee_textview" />
+    <LinearLayout android:gravity="center" android:id="@id/mLayoutMembership" android:background="@drawable/selector_home_vip_expire_time" android:focusable="true" android:visibility="gone" android:nextFocusRight="@id/mLayoutPersonal" android:layout_width="130.0dip" android:layout_height="40.0dip" android:layout_marginLeft="31.0dip" android:layout_marginTop="23.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:background="@mipmap/icon_home_vip" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/color_ffffff" android:gravity="center" android:id="@id/mTvMembership" android:visibility="visible" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginLeft="5.0dip" android:text="@string/home_notification_recharge" style="@style/marquee_textview" />
+    </LinearLayout>
+    <FrameLayout android:orientation="vertical" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip">
+        <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/mLayoutPersonal" android:background="@drawable/selector_home_vip_expire_time" android:focusable="true" android:focusableInTouchMode="true" android:clipChildren="false" android:layout_width="108.0dip" android:layout_height="40.0dip" android:layout_marginTop="23.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/mIvPersonal" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/ic_notify_personal" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/color_ffffff" android:gravity="center" android:id="@id/mTvPersonal" android:visibility="visible" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="42.0dip" android:layout_marginLeft="5.0dip" android:text="@string/notification_personal" style="@style/marquee_textview" />
+        </LinearLayout>
+        <TextView android:textSize="10.0sp" android:textColor="@color/color_4d1a00" android:gravity="center" android:layout_gravity="center|right|top" android:id="@id/mTvRegister" android:background="@drawable/bg_dialog_get_bindday_title" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="23.0dip" android:layout_marginLeft="82.0dip" android:layout_marginTop="10.0dip" android:text="@string/home_notification_register" android:layout_above="@id/mLayoutPersonal" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/mLlSearch" android:clipChildren="false" android:layout_width="40.0dip" android:layout_height="wrap_content" android:layout_marginTop="23.0dip">
+        <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/mLayoutSearch" android:background="@drawable/selector_notification" android:focusable="true" android:focusableInTouchMode="true" android:nextFocusLeft="@id/mLayoutPersonal" android:nextFocusRight="@id/mLayoutRecords" android:layout_width="40.0dip" android:layout_height="40.0dip">
+            <ImageView android:id="@id/mIvSearch" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/ic_notify_search" />
+        </LinearLayout>
+        <TextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/mTvSearch" android:visibility="gone" android:layout_width="107.0dip" android:text="@string/notification_search" android:layout_below="@id/mIvPersonal" style="@style/notification_text_style" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/mLlRecords" android:clipChildren="false" android:layout_width="40.0dip" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="23.0dip">
+        <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/mLayoutRecords" android:background="@drawable/selector_notification" android:focusable="true" android:focusableInTouchMode="true" android:nextFocusLeft="@id/mLayoutSearch" android:nextFocusRight="@id/mLayoutFilter" android:layout_width="40.0dip" android:layout_height="40.0dip">
+            <ImageView android:id="@id/mImgRecords" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/ic_notify_records" />
+        </LinearLayout>
+        <TextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/mTextRecords" android:layout_width="107.0dip" android:text="@string/notification_record" style="@style/notification_text_style" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/mLlFilter" android:clipChildren="false" android:layout_width="40.0dip" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="23.0dip">
+        <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/mLayoutFilter" android:background="@drawable/selector_notification" android:focusable="true" android:focusableInTouchMode="true" android:nextFocusLeft="@id/mLayoutRecords" android:nextFocusRight="@id/mLayoutInviteFriend" android:layout_width="40.0dip" android:layout_height="40.0dip">
+            <ImageView android:id="@id/mIvFilter" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/ic_notify_filter" />
+        </LinearLayout>
+        <TextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/mTvFilter" android:layout_width="107.0dip" android:text="@string/notification_filter" style="@style/notification_text_style" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/mLlInviteFriend" android:visibility="gone" android:clipChildren="false" android:layout_width="40.0dip" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="23.0dip">
+        <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/mLayoutInviteFriend" android:background="@drawable/selector_notification" android:focusable="true" android:focusableInTouchMode="true" android:nextFocusLeft="@id/mLayoutFilter" android:nextFocusRight="@id/mLayoutMessage" android:layout_width="40.0dip" android:layout_height="40.0dip">
+            <ImageView android:id="@id/mIvInviteFriend" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/ic_notify_invite_friend" />
+        </LinearLayout>
+        <TextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/mTvInviteFriend" android:layout_width="107.0dip" android:text="@string/notification_invite_friend" style="@style/notification_text_style" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/mLlMessage" android:clipChildren="false" android:layout_width="56.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="23.0dip">
+        <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/mLayoutMessage" android:background="@drawable/selector_notification" android:focusable="true" android:focusableInTouchMode="true" android:nextFocusLeft="@id/mLayoutInviteFriend" android:nextFocusRight="@id/mLayoutMessage" android:layout_width="40.0dip" android:layout_height="40.0dip">
+            <ImageView android:id="@id/mImgMessage" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/ic_notify_message" />
+        </LinearLayout>
+        <TextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/mTextMessage" android:layout_width="wrap_content" android:layout_marginTop="46.0dip" android:text="@string/notification_message" style="@style/notification_text_style" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/color_ffffffff" android:ellipsize="end" android:gravity="center" android:id="@id/mTextMsgNumber" android:background="@drawable/shape_bg_new_message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="14.0dip" android:layout_marginLeft="27.0dip" android:maxWidth="33.0dip" android:minWidth="13.0dip" android:maxLines="1" android:includeFontPadding="false" />
+    </FrameLayout>
+</LinearLayout>

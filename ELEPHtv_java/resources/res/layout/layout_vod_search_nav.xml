@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_vod_search_nav"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="157dp"
+    android:layout_height="45dp">
+    <TextView
+        android:textSize="24sp"
+        android:textColor="@color/color_vod_search_nav"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/mTvNav"
+        android:duplicateParentState="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"/>
+    <TextView
+        android:textSize="19sp"
+        android:textColor="@color/color_vod_search_nav"
+        android:ellipsize="end"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/mTvNum"
+        android:paddingTop="4dp"
+        android:visibility="gone"
+        android:duplicateParentState="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:singleLine="true"
+        android:includeFontPadding="false"/>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mLayoutPasswordInput"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.zhy.autolayout.AutoFrameLayout
+        android:background="@color/color_ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300px"
+        android:minHeight="80px">
+        <TextView
+            android:textSize="28px"
+            android:textColor="@color/color_000000"
+            android:gravity="center"
+            android:id="@+id/mToastText"
+            android:paddingLeft="20px"
+            android:paddingTop="25px"
+            android:paddingRight="20px"
+            android:paddingBottom="25px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </com.zhy.autolayout.AutoFrameLayout>
+</com.zhy.autolayout.AutoFrameLayout>

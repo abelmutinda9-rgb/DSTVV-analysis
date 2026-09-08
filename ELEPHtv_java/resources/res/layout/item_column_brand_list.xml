@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.open.leanback.widget.HorizontalGridView
+        android:id="@+id/mBrandRoot"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="165px"
+        android:horizontalSpacing="19px"
+        app:focusOutEnd="false"
+        app:focusOutFront="true"
+        app:focusOutSideEnd="true"
+        app:focusOutSideStart="true"
+        app:numberOfColumns="6"/>
+</com.zhy.autolayout.AutoFrameLayout>

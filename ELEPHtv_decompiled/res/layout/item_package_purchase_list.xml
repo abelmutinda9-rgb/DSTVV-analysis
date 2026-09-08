@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout android:id="@id/mRlPackage" android:background="@drawable/selector_vod_package_bg" android:focusable="true" android:layout_width="fill_parent" android:layout_height="144.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhy.autolayout.AutoFrameLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <com.zhy.autolayout.AutoLinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/mLlCouponBg" android:background="@drawable/selector_purchase_coupons_bg" android:visibility="visible" android:duplicateParentState="true" android:layout_width="248.0px" android:layout_height="33.0px" android:layout_alignParentTop="true">
+            <TextView android:textSize="20.0px" android:textColor="@drawable/text_purchase_coupon_selector" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/mTvCouponDiscount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="46.0px">
+            <TextView android:textSize="48.0px" android:textColor="@color/color_ffffff" android:id="@id/mTvPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+            <TextView android:textSize="24.0px" android:textColor="@color/color_ffffff" android:gravity="right" android:id="@id/mTvPriceType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="40.0px" android:includeFontPadding="false" android:layout_toRightOf="@id/mTvPrice" />
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="46.0px" android:layout_marginBottom="19.0px">
+            <TextView android:textSize="24.0px" android:textColor="@color/color_4dfffff" android:id="@id/mTvOriginalPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+            <TextView android:textSize="24.0px" android:textColor="@color/color_ffffff" android:gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="40.0px" android:includeFontPadding="false" android:layout_toRightOf="@id/mTvPrice" />
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoFrameLayout>
+    <ImageView android:id="@id/mIvHot" android:visibility="gone" android:layout_width="75.0px" android:layout_height="75.0px" android:src="@mipmap/vod_icon_package_hot" android:layout_alignParentRight="true" />
+    <com.zhy.autolayout.AutoLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="257.0px">
+        <TextView android:textSize="30.0px" android:textColor="@color/color_99ffffff" android:id="@id/mTvName" android:background="@drawable/shape_purchase_package_title_bg" android:layout_width="490.0px" android:layout_height="54.0px" android:includeFontPadding="false" android:layout_weight="1.0" android:layout_centerVertical="true" style="@style/marqueeText" />
+        <TextView android:textSize="24.0px" android:textColor="@color/color_ffffff" android:id="@id/mTvPerDayPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="44.0px" android:layout_marginRight="65.0px" android:layout_centerVertical="true" />
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoRelativeLayout>

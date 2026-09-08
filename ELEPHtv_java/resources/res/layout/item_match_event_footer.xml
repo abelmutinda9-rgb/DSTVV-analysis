@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="50px"
+    android:layout_height="match_parent">
+    <View
+        android:layout_gravity="center"
+        android:background="@drawable/shape_match_oval_bg"
+        android:layout_width="20px"
+        android:layout_height="20px"/>
+    <View
+        android:layout_gravity="center"
+        android:background="@color/color_c4c4c4"
+        android:layout_width="match_parent"
+        android:layout_height="6px"/>
+</com.zhy.autolayout.AutoFrameLayout>

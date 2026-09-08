@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.open.leanback.widget.HorizontalGridView
+        android:layout_gravity="center"
+        android:id="@+id/rvNotifies"
+        android:paddingLeft="140px"
+        android:paddingTop="10px"
+        android:paddingRight="140px"
+        android:paddingBottom="10px"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="474px"
+        android:horizontalSpacing="26px"
+        android:paddingHorizontal="140px"
+        android:paddingVertical="10px"/>
+</com.zhy.autolayout.AutoFrameLayout>

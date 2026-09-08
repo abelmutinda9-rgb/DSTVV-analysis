@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout android:orientation="vertical" android:id="@id/mRootView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="31.0sp" android:textColor="@color/color_font_main" android:gravity="center" android:id="@id/mTvPlayListTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="55.0dip" android:text="@string/playlist_title" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="27.0sp" android:textColor="@color/color_font_main" android:gravity="center" android:id="@id/mTvPlayListTip" android:layout_width="823.0dip" android:layout_height="wrap_content" android:layout_marginTop="82.0dip" android:text="@string/playlist_content" android:layout_below="@id/mTvPlayListTitle" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="27.0sp" android:textColor="@color/color_font_main" android:gravity="center" android:id="@id/mTvPlayListUrl" android:layout_width="823.0dip" android:layout_height="wrap_content" android:layout_marginTop="122.0dip" android:layout_below="@id/mTvPlayListTip" android:layout_centerHorizontal="true" />
+</com.zhy.autolayout.AutoRelativeLayout>

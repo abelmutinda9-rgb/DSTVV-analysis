@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/mLayout"
+    android:focusable="true"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="580px"
+    android:layout_height="wrap_content">
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/mLayoutLiveStream"
+        android:background="@drawable/sel_livestream_item_home"
+        android:duplicateParentState="true"
+        android:layout_width="580px"
+        android:layout_height="326px">
+        <ImageView
+            android:id="@+id/mLayoutPoster"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"/>
+    </com.zhy.autolayout.AutoRelativeLayout>
+    <TextView
+        android:textSize="30px"
+        android:textColor="@color/color_c4c4c4"
+        android:ellipsize="end"
+        android:id="@+id/mTvChannelName"
+        android:duplicateParentState="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:maxLines="2"
+        android:marqueeRepeatLimit="marquee_forever"/>
+</com.zhy.autolayout.AutoLinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/vod_selector_bg_genre"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_width="wrap_content"
+    android:layout_height="38px">
+    <TextView
+        android:textSize="28px"
+        android:textColor="@color/color_vod_genre_bg"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:id="@+id/mTvGenre"
+        android:paddingLeft="10px"
+        android:paddingRight="10px"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:maxWidth="660px"
+        android:text="Amazing"
+        android:singleLine="true"
+        android:marqueeRepeatLimit="marquee_forever"/>
+</com.zhy.autolayout.AutoFrameLayout>

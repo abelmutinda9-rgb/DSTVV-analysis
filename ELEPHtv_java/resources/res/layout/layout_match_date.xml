@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="123px"
+    android:layout_height="123px">
+    <TextView
+        android:textSize="20px"
+        android:textStyle="bold"
+        android:textColor="@color/selector_match_weekday_color"
+        android:gravity="center"
+        android:id="@+id/mTvWeekday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:text="FRI"
+        android:textIsSelectable="true"/>
+    <TextView
+        android:textSize="32px"
+        android:textStyle="bold"
+        android:textColor="@color/selector_match_day_color"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/mTvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13px"
+        android:text="11/15"/>
+</com.zhy.autolayout.AutoLinearLayout>

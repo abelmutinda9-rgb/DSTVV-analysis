@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:id="@id/llContainer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="48.0px" android:textStyle="bold" android:textColor="@color/color_font_main" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80.0px" android:layout_marginTop="96.0px" android:text="@string/personal_screen_ratio" />
+    <TextView android:textSize="32.0px" android:textStyle="bold" android:textColor="@color/color_font_second" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="80.0px" android:layout_marginTop="48.0px" android:text="@string/play_setting_playratio" />
+    <com.zhy.autolayout.AutoLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="80.0px" android:layout_marginTop="38.0px">
+        <com.zhy.autolayout.AutoFrameLayout android:id="@id/playback_setting_full_screen" android:nextFocusRight="@id/playback_setting_normal" android:nextFocusUp="@id/playback_setting_full_screen" android:nextFocusDown="@id/playback_setting_full_screen" android:descendantFocusability="blocksDescendants" android:layout_marginLeft="0.0px" style="@style/personal_playback_setting_ll">
+            <ImageView android:layout_gravity="bottom|center|right" android:id="@id/playback_image_full_screen" android:background="@drawable/vod_feedback_radio_checked" android:focusable="false" android:visibility="gone" android:layout_width="20.0px" android:layout_height="20.0px" />
+            <TextView android:id="@id/playback_tv_full_screen" android:nextFocusRight="@id/playback_tv_normal" android:nextFocusUp="@id/playback_tv_full_screen" android:nextFocusDown="@id/playback_tv_full_screen" android:text="@string/player_full" style="@style/style_playback_setting_tv" />
+        </com.zhy.autolayout.AutoFrameLayout>
+        <com.zhy.autolayout.AutoFrameLayout android:id="@id/playback_setting_normal" android:nextFocusRight="@id/playback_setting_16_9" android:nextFocusUp="@id/playback_setting_normal" android:nextFocusDown="@id/playback_setting_normal" android:descendantFocusability="blocksDescendants" style="@style/personal_playback_setting_ll">
+            <ImageView android:layout_gravity="bottom|center|right" android:id="@id/playback_image_normal" android:background="@drawable/vod_feedback_radio_checked" android:focusable="false" android:visibility="gone" android:layout_width="20.0px" android:layout_height="20.0px" />
+            <TextView android:id="@id/playback_tv_normal" android:nextFocusUp="@id/playback_tv_normal" android:nextFocusDown="@id/playback_tv_normal" android:text="@string/screen_normal" style="@style/style_playback_setting_tv" />
+        </com.zhy.autolayout.AutoFrameLayout>
+        <com.zhy.autolayout.AutoFrameLayout android:id="@id/playback_setting_16_9" android:nextFocusRight="@id/playback_setting_4_3" android:nextFocusUp="@id/playback_setting_16_9" android:nextFocusDown="@id/playback_setting_16_9" android:descendantFocusability="blocksDescendants" style="@style/personal_playback_setting_ll">
+            <ImageView android:layout_gravity="bottom|center|right" android:id="@id/playback_image_16_9" android:background="@drawable/vod_feedback_radio_checked" android:visibility="gone" android:layout_width="20.0px" android:layout_height="20.0px" />
+            <TextView android:id="@id/playback_tv_16_9" android:nextFocusUp="@id/playback_tv_16_9" android:nextFocusDown="@id/playback_tv_16_9" android:text="@string/screen_16_9" style="@style/style_playback_setting_tv" />
+        </com.zhy.autolayout.AutoFrameLayout>
+        <com.zhy.autolayout.AutoFrameLayout android:id="@id/playback_setting_4_3" android:nextFocusRight="@id/playback_setting_4_3" android:nextFocusUp="@id/playback_setting_4_3" android:nextFocusDown="@id/playback_setting_4_3" android:descendantFocusability="blocksDescendants" style="@style/personal_playback_setting_ll">
+            <ImageView android:layout_gravity="bottom|center|right" android:id="@id/playback_image_4_3" android:background="@drawable/vod_feedback_radio_checked" android:visibility="gone" android:layout_width="20.0px" android:layout_height="20.0px" />
+            <TextView android:id="@id/playback_tv_4_3" android:nextFocusUp="@id/playback_tv_4_3" android:nextFocusDown="@id/playback_tv_4_3" android:text="@string/screen_4_3" style="@style/style_playback_setting_tv" />
+        </com.zhy.autolayout.AutoFrameLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoLinearLayout>

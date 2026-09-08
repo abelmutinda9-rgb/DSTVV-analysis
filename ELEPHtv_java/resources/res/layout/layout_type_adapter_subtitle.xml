@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:id="@+id/rootLayout"
+    android:background="@drawable/sel_vod_selection"
+    android:focusable="true"
+    android:layout_width="306px"
+    android:layout_height="72px">
+    <TextView
+        android:textSize="32px"
+        android:textColor="@color/color_ffffff"
+        android:ellipsize="marquee"
+        android:gravity="center_vertical"
+        android:id="@+id/mTvTitle"
+        android:paddingLeft="10px"
+        android:paddingRight="10px"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:singleLine="true"
+        android:layout_toRightOf="@+id/mIvChoose"
+        android:layout_centerVertical="true"
+        android:marqueeRepeatLimit="marquee_forever"/>
+    <ImageView
+        android:id="@+id/mIvChoose"
+        android:visibility="gone"
+        android:layout_width="25px"
+        android:layout_height="25px"
+        android:layout_marginLeft="10px"
+        android:src="@mipmap/icon_item_choose"
+        android:layout_centerVertical="true"/>
+</com.zhy.autolayout.AutoRelativeLayout>

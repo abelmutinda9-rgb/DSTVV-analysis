@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/mColumnHorizonItem"
+    android:layout_width="408px"
+    android:layout_height="275px">
+    <com.vod.view.RadiusImageView
+        android:id="@+id/mIvPoster"
+        android:layout_width="match_parent"
+        android:layout_height="232px"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:textSize="24px"
+        android:textColor="@color/color_font_main"
+        android:ellipsize="marquee"
+        android:gravity="bottom|center_horizontal"
+        android:id="@+id/mTvName"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="33px"
+        android:singleLine="true"
+        android:includeFontPadding="false"
+        android:marqueeRepeatLimit="marquee_forever"/>
+</com.zhy.autolayout.AutoLinearLayout>

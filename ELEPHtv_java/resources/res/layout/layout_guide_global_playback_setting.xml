@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <Button
+        android:textColor="@color/color_ffffff"
+        android:id="@+id/mButton"
+        android:tag="mButton"
+        android:text="@string/dialog_guide_next"
+        android:layout_below="@+id/mTextContent"
+        android:layout_centerHorizontal="true"
+        style="@style/button_guide_style"/>
+    <TextView
+        android:textSize="32px"
+        android:textColor="@color/color_333333"
+        android:gravity="center_vertical"
+        android:id="@+id/mTextContent"
+        android:tag="mTextContent"
+        android:background="@drawable/bg_dialog_guide_up_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60px"
+        android:maxWidth="1044px"
+        android:text="@string/person_guide_play_setting"/>
+</com.zhy.autolayout.AutoRelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/vod_bg_pop_window"
+    android:clipChildren="false"
+    android:layout_width="180px"
+    android:layout_height="168px">
+    <com.open.leanback.widget.VerticalGridView
+        android:id="@+id/mSubtitleRec"
+        android:padding="6px"
+        android:scrollbars="none"
+        android:nextFocusRight="@+id/searchGridview"
+        android:clipChildren="false"
+        android:descendantFocusability="afterDescendants"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@color/color_transparent"
+        app:numberOfColumns="1"
+        app:verticalMargin="4px"/>
+</com.zhy.autolayout.AutoLinearLayout>

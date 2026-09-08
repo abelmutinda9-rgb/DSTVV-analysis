@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhy.autolayout.AutoLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/mContainerLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="80.0px" android:layout_marginTop="120.0px" android:layout_marginRight="80.0px">
+        <TextView android:textSize="48.0px" android:textStyle="bold" android:textColor="@color/color_font_normal" android:id="@id/mAppNameText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_about_title" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="28.0px" android:textColor="@color/color_font_second" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="60.0px" android:layout_marginBottom="50.0px" android:text="@string/setting_about_info" android:layout_below="@id/mAppNameText" android:lineSpacingExtra="10.0px" />
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView android:textSize="30.0px" android:textColor="@color/color_ffffff" android:layout_gravity="bottom|center|left" android:id="@id/contact_us" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="102.0px" android:layout_marginBottom="206.0px" android:text="@string/about_contact_us" />
+    <com.zhy.autolayout.AutoLinearLayout android:layout_gravity="bottom|center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="102.0px" android:layout_marginBottom="144.0px">
+        <com.zhy.autolayout.AutoLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/mLlServiceEmail" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="28.0px" android:textColor="@color/color_ffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/email" />
+            <TextView android:textSize="32.0px" android:textColor="@color/color_ff9500" android:layout_gravity="center" android:id="@id/tvEmail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:text="@string/setting_about_email" />
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/mLlOfficialWeb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="102.0px">
+            <TextView android:textSize="28.0px" android:textColor="@color/color_ffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/official_website" />
+            <TextView android:textSize="32.0px" android:textColor="@color/color_ff9500" android:layout_gravity="center" android:id="@id/tvWeb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" />
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView android:textSize="28.0px" android:textColor="@color/color_c4c4c4" android:id="@id/mTextVersion" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="59.0px" android:layout_marginBottom="88.0px" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</com.zhy.autolayout.AutoFrameLayout>

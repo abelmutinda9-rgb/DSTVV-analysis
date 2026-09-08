@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/mIvAd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+    <com.module.view.LoadingView
+        android:layout_gravity="center"
+        android:id="@+id/mLoadingView"
+        android:visibility="gone"
+        android:layout_width="180px"
+        android:layout_height="180px"/>
+    <Button
+        android:layout_gravity="bottom|center_horizontal"
+        android:id="@+id/mBtnGo"
+        android:background="@drawable/selector_dialog_btn_exit"
+        android:visibility="gone"
+        android:layout_width="250px"
+        android:layout_height="50px"
+        android:layout_marginBottom="40px"
+        android:text="@string/ad_screen_go"
+        style="@style/btn_pwd"/>
+</com.zhy.autolayout.AutoFrameLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:id="@+id/rootLayout"
+    android:background="@drawable/selector_vod_category_list"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="36px">
+    <TextView
+        android:textSize="24px"
+        android:textColor="#fffefe"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:id="@+id/mSubTitleText"
+        android:paddingLeft="20px"
+        android:paddingRight="20px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:singleLine="true"
+        android:layout_centerVertical="true"/>
+    <ImageView
+        android:id="@+id/mChooseImg"
+        android:visibility="gone"
+        android:layout_width="21px"
+        android:layout_height="21px"
+        android:layout_marginLeft="10px"
+        android:src="@mipmap/vod_icon_pop_item_choose"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+</com.zhy.autolayout.AutoRelativeLayout>

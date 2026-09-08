@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:id="@id/mVerticalItem" android:layout_width="266.0px" android:layout_height="434.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.vod.view.RadiusImageView android:id="@id/mIvPoster" android:layout_width="fill_parent" android:layout_height="390.0px" android:scaleType="fitXY" />
+    <TextView android:textSize="24.0px" android:textColor="@color/color_font_main" android:ellipsize="marquee" android:gravity="bottom|center" android:id="@id/mTvName" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="44.0px" android:singleLine="true" android:includeFontPadding="false" android:marqueeRepeatLimit="marquee_forever" />
+</com.zhy.autolayout.AutoLinearLayout>

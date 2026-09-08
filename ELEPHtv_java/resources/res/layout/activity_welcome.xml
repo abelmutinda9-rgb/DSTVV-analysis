@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.common.utils.mark.welcome.WelcomeRootView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:rs="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.adimage.view.LaunchAdView
+        android:id="@+id/launchAd"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:background="@mipmap/icon_welcome_logo"
+            android:layout_width="536px"
+            android:layout_height="98px"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:textSize="28px"
+            android:textColor="@color/color_ffffff"
+            android:id="@+id/mTextVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70px"
+            android:layout_below="@+id/ivLogo"
+            android:layout_centerHorizontal="true"/>
+    </com.zhy.autolayout.AutoRelativeLayout>
+</com.common.utils.mark.welcome.WelcomeRootView>
